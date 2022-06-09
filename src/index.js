@@ -74,4 +74,4 @@ export const randomizer = (from, to) => {
         to = Math.round(to);
         return Math.round(Math.random() * (from - to + 1)) + to; //Максимум и минимум включаются
 }; 
-  
+ randomizer ();
