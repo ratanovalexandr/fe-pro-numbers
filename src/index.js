@@ -72,6 +72,5 @@ export const randomizer = (from, to) => {
 
         from = Math.ceil(from);
         to = Math.round(to);
-        return Math.round(Math.random() * (from - to + 1)) + to; //Максимум и минимум включаются
+        return Math.round(Math.random() * (from - to)) + to; //Максимум и минимум включаются
 }; 
- randomizer ();
